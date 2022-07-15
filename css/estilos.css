@@ -73,6 +73,7 @@ p{
 .uno img{
   float: right;
   width: 25%;
+  margin-top: 20px;
 }
 
 .pintado{
@@ -117,6 +118,7 @@ section.texto{
 
 footer{
   background-color: #C6DCE4;
+  padding: 40px 0px;
 }
 
 footer li{
@@ -129,29 +131,34 @@ footer a{
 }
 
 footer a:hover{
-  border-bottom: 2px solid #9ba9b3;
+  border-bottom: 2px solid dodgerblue;
 }
 
 .pie{
   width: 80%;
   margin: auto;
-  padding: 40px 0px;
 }
 
 .pie section{
   display: inline-block;
 }
 
+.pie section h2{
+  margin-top: -40px;
+}
+
 .medio{
   margin: 0px 25%;
 }
-
-/*
 
 
 @media screen and (max-width: 500px) { 
   body{
     background-color: #FAD9BB;
   }
+
+  .menu {
+    font-size: .7em;
+  }
+
 }
-*/
