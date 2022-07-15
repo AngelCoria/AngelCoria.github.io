@@ -1,18 +1,23 @@
 *{
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
   font-family: 'Montserrat',sans-serif;
   color: #9ba9b3;
 }
 
 header{
   background-color: #C6DCE4;
+  color: aliceblue;
+}
+
+header section{
+  width: 80%;
+  margin: auto;
 }
 
 h1{
-  float: left;
-  padding-bottom: 20px;
+  display: inline-block;
+  padding: 20px 0px;
   font-size: 2em;
 }
 
@@ -20,63 +25,98 @@ h2{
   font-size: 2.5em;
 }
 
-p{
-  font-size: 1.3em;
-}
-
-div{
-  clear: both;
-}
-
-span{
+h3,
+span,
+footer a{
   color: dodgerblue;
-}
-
-footer{
-  background-color: #C6DCE4;
-  padding: 60px 0px;
-}
-
-.texto{
-  float:left;
-  margin-top: 50px;
-}
-
-.img{
-  float: right;
-  text-align: right;
-  margin-bottom: 40px;
 }
 
 .menu{
   float: right;
-  padding-top: 5px;
-  font-size: 1.1em;
 }
 
-.negro a,
-.negro{
-  color: black;
+.menu li{
+  display: inline-block;
+  margin: 30px 0px;
 }
 
-.container{
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
+.menu a{
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #9ba9b3;
 }
 
-.dos{
+.menu a:hover,
+.menu .activo{
+  background-color: white;
+  border-radius: 10px;
+}
+
+p{
+  font-size: 1.3em;
+}
+
+.uno{
+  width: 80%;
+  margin: 40px auto;
+  clear: both;
+  padding: 20px 0px;
+}
+
+.uno section{
+  background-color: white;
+  width: 40%;
+  display: inline-block;
+  margin: 40px 0px;
+}
+
+.uno img{
+  float: right;
+  width: 25%;
+}
+
+.pintado{
   background-color: #C6DCE4;
-  padding: 60px 0px 40px;
+  clear: both;
 }
 
-.tres{
+.pintado section{
+  width: 80%;
+  margin: 40px auto;
+  padding-bottom: 40px;
   text-align: center;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 60px;
+}
+
+section.texto{
+  width: 60%;
+}
+
+.texto h2{
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.pintado .imagen{
+  width: 100%;
+  text-align: left;
+}
+
+.imagen img:nth-child(2){
+  margin: 0px 19%;
+}
+
+.sobre{
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.sobre h2{
+  margin-bottom: 40px;
+}
+
+footer{
+  background-color: #C6DCE4;
 }
 
 footer li{
@@ -89,69 +129,29 @@ footer a{
 }
 
 footer a:hover{
-  border-bottom: 3px solid dodgerblue;;
+  border-bottom: 2px solid #9ba9b3;
 }
 
-footer section{
-  width: 30%;
-  float: left;
+.pie{
+  width: 80%;
+  margin: auto;
+  padding: 40px 0px;
 }
 
-.tres h2{
-  margin: 40px 0px;
-}
-
-h2.azul,
-h3,
-footer a{
-  color: dodgerblue;
-}
-
-.dos section{
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 40px;
-}
-
-.dos .letra{
-  text-align: center;
-  width: 45%;
-  margin-bottom: 40px;
-}
-
-.dos section img{
-  width: 15%;
-}
-
-.dos section img.margen{
-  margin-right: 27%;
-}
-
-.uno section{
-  width: 40%;
-}
-
-.uno .container{
-  padding-top: 40px;
-}
-
-.menu li{
+.pie section{
   display: inline-block;
-  padding: 5px;
 }
 
-.menu a{
-  text-decoration: none;
-  padding: 5px;
+.medio{
+  margin: 0px 25%;
 }
 
-.menu a.activo,
-.menu a:hover{
-  background-color: white;
-  border-radius: 7px;
-}
+/*
 
-.uno .img img{
-  width: 60%;
+
+@media screen and (max-width: 500px) { 
+  body{
+    background-color: #FAD9BB;
+  }
 }
+*/
