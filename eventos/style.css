@@ -1,0 +1,15 @@
+#operacion,
+#pregunta,
+#suma,
+#resta,
+#divide,
+#multiplica,
+#reiniciar,
+#resul{
+    display: none;
+}
+
+form div.uno,
+form div.dos{
+    display: flex;
+}
