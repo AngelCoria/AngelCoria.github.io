@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(img/background.jpg);
+    background-repeat: repeat;
+}
+
+header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 83px;
+    background: url(img/cabezote.jpg);
+    background-color: #11171c;
+}
+
+#logo{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    width: 100px;
+    height: 47px;
+}
+
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    background: linear-gradient(to right, #004aad, #7ac7fe);
+    border-bottom: 1px solid #bcd1cb;
+}
+
+nav ul{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500px;
+    height: 45px;
+}
+
+nav ul li{
+    float: left;
+    width: 123px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    border-right: 1px solid #bcd1cb;
+}
+
+nav ul li:hover{
+    background-color: black;
+}
+
+#slide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 301px;
+}
+
+#botoneraSlide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 26px;
+    background: url(img/backBotonesSlide.jpg);
+}
+
+#botoneraSlide ul{
+    position: relative;
+    margin: auto;
+    width: 100px;
+    height: 26px;
+}
+
+#botoneraSlide ul li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #232d80;
+    border: 3px solid white;
+    margin: 3px 2px;
+}
+
+#botoneraSlide ul li.activo{
+    background-color: coral;
+}
+
+#tarjetas{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 998px;
+    height: 303px;
+    background-color: white;
+}
+
+#tarjetas ul li{
+    float: left;
+    width: 331px;
+    height: 299px;
+}
+
+#tarjetas ul li h1{
+    margin: 23px 27px;
+    font-weight: 100px;
+    font-size: 25px;
+}
+
+#tarjetas ul li p{
+    margin: 25px 32px;
+    font-size: 15px;
+}
+
+#tarjetas ul li img{
+    width: 274px;
+    height: 85px;
+    background-color: silver;
+    margin: -21px 30px;
+}
+
+#bottom{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 190px;
+    background: url(img/backBottom.jpg);
+    background-color: black;
+}
+
+#bottom ul li{
+    float: left;
+    width: 250px;
+    height: 190px;
+}
+
+#bottom ul li h1{
+    margin: 13px 18px;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#bottom ul li ol{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    width: 190px;
+    height: 80px;
+}
+
+#bottom ul li ol li{
+    height: 20px;
+    text-align: left;
+    list-style: inside;
+    font-size: 15px;
+    color: white;
+    list-style-image: url(img/list.png);
+}
+
+#bottom ul li img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 95px;
+    height: 95px;
+    border: 4px solid white;
+    background-color: silver;
+}
+
+#bottom ul li ul{
+    position: relative;
+    top: 11px;
+    left: 15px;
+    width: 200px;
+    height: 40px;
+}
+
+#bottom ul li ul li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 5px;
+}
+
+#bottom ul li ul li:first-child{
+    background-image: url(img/facebook.jpg);
+    background-size: 100%;
+}
+
+
+#bottom ul li ul li:nth-child(2){
+    background-image: url(img/iconogoogle.jpg);
+    background-size: 100%;
+}
+
+#bottom ul li ul li:nth-child(3){
+    background-image: url(img/iconopinterest.jpg);
+    background-size: 100%;
+}
+
+#bottom ul li ul li:nth-child(4){
+    background-image: url(img/iconotwitter.jpg);
+    background-size: 100%;
+}
+
+#bottom ul li ul li a{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+footer{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 62px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 62px;
+    font-size: 15px;
+}
+
