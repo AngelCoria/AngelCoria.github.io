@@ -217,10 +217,10 @@ span{
   margin: 10px 0px;
 }
 
-.cuatro form  {
+.cuatro form  div{
   font-size: 1.2rem;
   font-family: "menu", sans-serif; 
-  width:650px;
+  width:400px;
 }
 
 .cuatro form div input{
